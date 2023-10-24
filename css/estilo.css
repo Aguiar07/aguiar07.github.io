@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Define margem e preenchimento padrão para todos os elementos HTML */
+
+body{
+	font-size: 1em;
+	font-family:  "Trebuchet MS", Helvetica; sans-serif;
+	background: #e6e6e6;
+}
+/* Estilos para o corpo da página (body) */
+/* Define o tamanho da fonte, família da fonte e cor de fundo */
+
+#area-cabecalho{
+	background-color: darkblue;
+	padding: 15px;
+	text-align: center;
+}
+/* Estilos para a área do cabeçalho */
+/* Define a cor de fundo, preenchimento e alinhamento do texto */
+
+#area-logo, #area-menu{
+	padding: 10px;
+	margin: ;
+}
+/* Estilos para as áreas de logo e menu */
+/* Define o preenchimento */
+
+#area-principal{
+	background: white;
+	width: 920px;
+	margin: 0 auto;
+}
+/* Estilos para a área principal */
+/* Define a cor de fundo, largura e centralização horizontal */
+
+.img{
+	width: 80px;
+	float: inherit;
+}
+/* Estilos para imagens com classe "img" */
+/* Define a largura e desativa o alinhamento float */
+
+.area-preta{
+	background-color: black;
+}
+/* Estilos para áreas com fundo preto */
+/* Define a cor de fundo */
+
+a{
+	text-decoration: none;
+}
+/* Estilos para links */
+/* Remove a decoração de texto (sublinhado padrão) */
+
+a:link, a:visited{
+	color: white;
+	padding: 8px 12px;
+}
+/* Estilos para links não visitados (a:link) e visitados (a:visited) */
+/* Define a cor do texto e o preenchimento */
+
+a:hover{
+	color: black;
+	background: white;
+}
+/* Estilos para links ao passar o mouse sobre eles (a:hover) */
+/* Define a cor do texto e o fundo ao passar o mouse */
+
+h1{
+	color: black;
+	font-size: 2.5em;
+	font-family:  "Trebuchet MS", Helvetica; sans-serif;
+}
+/* Estilos para cabeçalhos de nível 1 (h1) */
+/* Define a cor do texto, tamanho da fonte e família da fonte */
+
+p{
+	color: black;
+	font-size: 1em;
+	font-family:  "Trebuchet MS", Helvetica; sans-serif;
+}
+/* Estilos para parágrafos (p) */
+/* Define a cor do texto, tamanho da fonte e família da fonte */
+
+.branco{
+	color: white;
+}
+/* Estilos para elementos com classe "branco" */
+/* Define a cor do texto como branco */
+
+.preto{
+	color: black;
+}
+/* Estilos para elementos com classe "preto" */
+/* Define a cor do texto como preto */
